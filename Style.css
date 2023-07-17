@@ -394,31 +394,36 @@ footer a {
   }
   footer a {
     height: 0;
+  }@media screen and (max-width: 768px) {
+    /* CSS styles for screens with a maximum width of 768 pixels or less */
+  
+    .about .content .text p {
+      /* Modify the styles for the paragraph */
+      font-size: 18px;
+    }
+    .about .about-details .left .topic {
+
+      font-size: 18px;
+      left: 10px;
+    }
+    .about .about-details {
+      /* Modify the styles for the about-details section */
+      flex-direction: column;
+    }
+  
+    .about .about-details .left {
+      /* Modify the styles for the left section */
+      width: 100%;
+    }
+  
+    .about .about-details .right {
+      /* Modify the styles for the right section */
+      width: 100%;
+    }
+  
   }
 
-  @media screen and (min-width: 1200px) {
-    .max-width {
-      padding: 0 40px;
-    }
-  }
-  
-  @media screen and (min-width: 1400px) {
-    .max-width {
-      padding: 0 80px;
-    }
-  }
-  
-  @media screen and (min-width: 1600px) {
-    .max-width {
-      padding: 0 120px;
-    }
-  }
-  
-  @media screen and (min-width: 1800px) {
-    .max-width {
-      padding: 0 160px;
-    }
-  
 
-}
+  
+  
 }
